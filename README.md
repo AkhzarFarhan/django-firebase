@@ -1,4 +1,4 @@
-Notifire Project
+django-firebase Project
 =================
 ![Badge](https://img.shields.io/badge/python-3.7.5-0?logo=Python&color=blue)
 ![Badge](https://img.shields.io/badge/django-2.2.9-0?logo=Django&color=success)
@@ -11,7 +11,7 @@ Installation
 ================
 ```sh
 $ git clone -repository.git-
-$ cd notifire
+$ cd django-firebase
 $ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/google_application_credentials.json
 $ python manage.py runserver
 ```
@@ -21,8 +21,8 @@ Directory layout
 
 Tracker's directory structure looks as follows::
 
-    notifire/
-    ├── notifire
+    django-firebase/
+    ├── django-firebase
     │   ├── __init__.py
     │   ├── connector.py
     │   ├── firebase.py
@@ -30,7 +30,7 @@ Tracker's directory structure looks as follows::
     │   ├── urls.py    
     │   ├── wsgi.py
     └── templates
-    │   ├── notifire.html
+    │   ├── django-firebase.html
     └── static
     │   ├── js
     │   │    └── firebase.js
